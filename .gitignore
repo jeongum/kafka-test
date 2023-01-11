@@ -1,0 +1,74 @@
+*~
+.DS_Store
+
+HELP.md
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+docker/mysql/docker-entrypoint-initdb.d/*.sql
+docker/mysql/data/*
+generated
+querydsl
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# JRebel
+rebel.xml
+
+## build
+out
+output
+build
+gen
+generated
+target
+*.pid
+
+## TEMP
+log
+logs
+temp
+tmp
+*.log
+
+### Java template
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+skaffold.yaml
+
+.docker

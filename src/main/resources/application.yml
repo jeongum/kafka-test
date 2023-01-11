@@ -1,0 +1,8 @@
+
+kafka-consumer:
+  config:
+    kafka-test:
+      bootstrap-servers: localhost:9092
+      client-id: kafka-test-consumer
+      group-id: kafka-test-consumer
+      topic: test-topic
