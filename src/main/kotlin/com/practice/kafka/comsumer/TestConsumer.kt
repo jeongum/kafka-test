@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component
 @Component
 @KafkaListener(
     topics = ["\${kafka-consumer.config.kafka-test.topic}"],
-    groupId = "\${kafka-consumer.config.kafka-test.group-id}",
     clientIdPrefix = "\${kafka-consumer.config.kafka-test.client-id}",
     containerFactory = "testKafkaListenerContainerFactory"
 )
